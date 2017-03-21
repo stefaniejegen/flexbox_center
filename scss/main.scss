@@ -1,0 +1,25 @@
+/**
+ * Base
+ */
+
+@import "base/reset";
+
+
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Aligner-item {
+  padding: 10px;
+  max-width: 50%;
+  background-color: lightgrey;
+
+}
+
+
+
+@import "components/sample";
